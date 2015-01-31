@@ -9,7 +9,8 @@ use Mix.Config
 config :gateway, Gateway.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "OQi9XlZiVSccoB2Cd9zXpJ9emG5k8cSwDOtQCtjkY+3eFJO+z4czozoGTNFvQksf",
-  debug_errors: false
+  debug_errors: false,
+  server: true
 
 # Configures Elixir's Logger
 config :logger, :console,

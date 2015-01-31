@@ -12,7 +12,7 @@ use Mix.Config
 # disk for the key and cert.
 
 config :gateway, Gateway.Endpoint,
-  url: [host: "example.com"],
+  url: [host: "localhost"],
   http: [port: System.get_env("PORT")],
   secret_key_base: "OQi9XlZiVSccoB2Cd9zXpJ9emG5k8cSwDOtQCtjkY+3eFJO+z4czozoGTNFvQksf"
 
@@ -29,5 +29,5 @@ config :logger, level: :info
 # Alternatively, you can configure exactly which server to
 # start per endpoint:
 #
-#     config :gateway, Gateway.Endpoint, server: true
+config :gateway, Gateway.Endpoint, server: true
 #
