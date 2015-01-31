@@ -1,0 +1,37 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+#gquery {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%); }
+  #gquery::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #gquery input {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    border: solid 0.1em black;
+    font-size: 3em; }
+    #gquery input:last-child {
+      margin-right: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 10px; }
+
+/*# sourceMappingURL=site.css.map */
