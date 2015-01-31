@@ -1,1 +1,5 @@
-<input>Test</input>
+<div id="gquery">
+  <form>
+    <input type="text" name="globalquery">
+  </form>
+</div>
