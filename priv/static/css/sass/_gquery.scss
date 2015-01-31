@@ -1,0 +1,15 @@
+#gquery {
+  @include outer-container;
+  
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+
+  input {
+    @include span-columns(10);
+    @include shift(1);
+    
+    border: solid 0.1em black;
+    font-size: 3em;
+  }
+}
